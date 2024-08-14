@@ -36,9 +36,9 @@ public class MemberSignUpDto {
                 .build();
     }
 
-    public static MemberSignUpDto toDto(MemberRequestVo memberRequestVo){
-        return MemberSignUpDto.builder()
-    }
+//    public static MemberSignUpDto toDto(MemberRequestVo memberRequestVo){
+//        return MemberSignUpDto.builder()
+//    }
 
 
 }
