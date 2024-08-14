@@ -21,11 +21,11 @@ public class MemberSignUpDto {
     private String nickname;
     private Date birth;
     private String address;
-    private String gender;g`
+    private String gender;
 
     public Member toEntity(){
         return Member.builder()
-                .id(id)
+                //.id(id)
                 .email(email)
                 .password(password)
                 .name(name)
